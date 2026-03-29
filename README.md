@@ -1,4 +1,4 @@
-<img width="1920" height="932" alt="image" src="https://github.com/user-attachments/assets/c2539701-2942-41f0-87c6-588a04aa1f7b" /># 🔍 Nmap Complete Guide (Beginner to Advanced)
+# 🔍 Nmap Complete Guide (Beginner to Advanced)
 
 ## 📘 Introduction
 

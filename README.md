@@ -25,7 +25,7 @@ Performs a basic scan to find open ports.
 
 ### 📷 Output:
 
-<img width="1920" height="1028" alt="1" src="https://github.com/user-attachments/assets/46a721bc-cc15-4873-9878-e878117406b5" />
+![Basic Scan](screenshots/basic-scan.png)
 
 ---
 

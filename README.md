@@ -6,8 +6,8 @@ The goal of this project is to identify open ports and services on a target syst
 ---
 
 ## 🛠 Tools Used
-- Nmap  
-- Kali Linux  
+- Kali Linux 
+- Nmap   
 
 ---
 

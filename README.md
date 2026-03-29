@@ -54,14 +54,14 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 📌 Description:
 
-- Performs basic scan with service version detection.
+- Performs port scan with service version detection.
 - Scans 1000 common ports and service with service's version.
 - Attackers can find exploit based on service versions.
 - Outdated services can be vulnerable and can be exploited.
 
 ### 📷 Output:
 
-(Add screenshot)
+![Version Scan](screenshots/version-scan.png)
 
 ---
 
@@ -69,11 +69,13 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 🔹 Command:
 
-nmap -O <target>
+![Nmap](https://img.shields.io/badge/nmap--O-192.168.198.129-orange)
 
 ### 📌 Description:
 
-Attempts to identify the operating system.
+- Attempts to identify the operating system.
+- Perform port scanning with operating system detection.
+- Attackers perform os detections scan so that they can find specific exploit related to that os and service version.
 
 ### 📷 Output:
 

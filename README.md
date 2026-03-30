@@ -104,7 +104,7 @@ Performs OS detection, version detection, and script scanning.
   
 ### 📷 Output:
 
-![Specific port Scan](screenshots/aggressive-scan.png)
+![Specific port Scan](screenshots/specific-port-scan.png)
 
 ### 🔹 Fast Scan:
 

@@ -17,7 +17,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 🔹 Command 1 : Basic scan/default scan
 
-  ![Nmap](https://img.shields.io/badge/nmap-192.168.198.129-orange)
+  ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129-red)
 
 ### 📌 Description:
 
@@ -33,7 +33,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 🔹 Command 2 : Stealth Scan (SYN Scan)
 
-![Nmap](https://img.shields.io/badge/nmap--sS-192.168.198.129-orange)
+![Nmap](https://img.shields.io/badge/nmap%20--sS%20192.168.198.129-red)
 
 ### 📌 Description:
 
@@ -50,7 +50,7 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ### 🔹 Command 3 : Service Version Detection
 
-![Nmap](https://img.shields.io/badge/nmap--sV-192.168.198.129-orange)
+![Nmap](https://img.shields.io/badge/nmap%20--sV%20192.168.198.129-red)
 
 ### 📌 Description:
 
@@ -65,11 +65,9 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ---
 
-## 🧠 Chapter 4: OS Detection
+### 🔹 Command 4 : OS Detection
 
-### 🔹 Command:
-
-![Nmap](https://img.shields.io/badge/nmap--O-192.168.198.129-orange)
+![Nmap](https://img.shields.io/badge/nmap%20--O%20192.168.198.129-red)
 
 ### 📌 Description:
 
@@ -83,11 +81,9 @@ Nmap (Network Mapper) is a powerful tool used for network discovery and security
 
 ---
 
-## 🧠 Chapter 5: Aggressive Scan
+### 🔹 Command 5 : Aggressive Scan
 
-### 🔹 Command:
-
-nmap -A <target>
+![Nmap](https://img.shields.io/badge/nmap%20--A%20192.168.198.129-red)
 
 ### 📌 Description:
 

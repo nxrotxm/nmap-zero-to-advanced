@@ -91,7 +91,7 @@ Performs OS detection, version detection, and script scanning.
 
 ### 📷 Output:
 
-(Add screenshot)
+![Aggressive Scan](screenshots/agressive-scan5.png)
 
 ---
 

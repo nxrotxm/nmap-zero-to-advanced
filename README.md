@@ -50,13 +50,12 @@ These are used in initial reconnaissance (beginner level)
 
 ### 🔹 Command 3 : Scan Entire Network
 
-  ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129-red)
+  ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129/24-red)
 
 ### 📌 Description:
 
-- Default scan of nmap.
-- Used to quickly identify open ports.
-- Scan top 1000 common ports and displays all open ports with running service with that port.
+- Scan enitre network.
+- Used to quickly identify open ports for entire network.
 
 ### 📷 Output:
 

@@ -31,7 +31,7 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-### 🔹 Command 1 : Basic scan/default scan
+### 🔹 Command 2 : Basic scan/default scan
 
   ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129-red)
 
@@ -47,7 +47,7 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-### 🔹 Command 2 : Multiple Target scan
+### 🔹 Command 3 : Multiple Target scan
 
   ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.129%20192.168.198.2-red)
 
@@ -62,7 +62,7 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-### 🔹 Command 3 : Scan Entire Network
+### 🔹 Command 4 : Scan Entire Network
 
   ![Nmap](https://img.shields.io/badge/nmap%20%20192.168.198.0/24-red)
 
@@ -77,12 +77,11 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-### 🔹 Command 4 : Specific Port Scan
+### 🔹 Command 5 : Specific Port Scan
 
 ![Nmap](https://img.shields.io/badge/nmap%20--p%2080%20192.168.198.129-red)
 
-- Displays only single port.
-- bellow is the example in screenshot.
+- Scan and display single open port.
   
 ### 📷 Output:
 
@@ -90,18 +89,30 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-### 🔹 Command 4 : Multiple Port Scan
+### 🔹 Command 6 : Multiple Port Scan
 
-![Nmap](https://img.shields.io/badge/nmap%20--p%2080%20192.168.198.129-red)
+![Nmap](https://img.shields.io/badge/nmap%20--p%2021,22,80%20192.168.198.129-red)
 
-- Displays only specified open port.
-- bellow is the example in screenshot.
+- Scan and display only specified open ports.
   
 ### 📷 Output:
 
-![Specifi port Scan](screenshots/specific-port-scan.png)
+![Specifi port Scan](screenshots/multiple-port-scan.png)
 
 ---
+
+### 🔹 Command 7 : All Port Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--p--%20%20192.168.198.129-red)
+
+- Scan and display all open ports.
+  
+### 📷 Output:
+
+![Specifi port Scan](screenshots/multiple-port-scan.png)
+
+---
+
 
 ### 🔹 Command 2 : Stealth Scan (SYN Scan)
 

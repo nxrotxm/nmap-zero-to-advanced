@@ -77,6 +77,32 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
+### 🔹 Command 4 : Specific Port Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--p%2080%20192.168.198.129-red)
+
+- Displays only single port.
+- bellow is the example in screenshot.
+  
+### 📷 Output:
+
+![Specifi port Scan](screenshots/specific-port-scan.png)
+
+---
+
+### 🔹 Command 4 : Multiple Port Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--p%2080%20192.168.198.129-red)
+
+- Displays only specified open port.
+- bellow is the example in screenshot.
+  
+### 📷 Output:
+
+![Specifi port Scan](screenshots/specific-port-scan.png)
+
+---
+
 ### 🔹 Command 2 : Stealth Scan (SYN Scan)
 
 ![Nmap](https://img.shields.io/badge/nmap%20--sS%20192.168.198.129-red)
@@ -140,17 +166,6 @@ Performs OS detection, version detection, and script scanning.
 ![Aggressive Scan](screenshots/aggressive-scan.png)
 
 ---
-
-### 🔹 Command 6 : Specific Port Scan
-
-![Nmap](https://img.shields.io/badge/nmap%20--p%2080%20192.168.198.129-red)
-
-- Displays only specified open port.
-- bellow is the example in screenshot.
-  
-### 📷 Output:
-
-![Specifi port Scan](screenshots/specific-port-scan.png)
 
 ### 🔹 Fast Scan:
 

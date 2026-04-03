@@ -178,7 +178,7 @@ These are used in initial reconnaissance (beginner level)
 
 ### 📌 Description:
 
-- Save scan output in txt format.
+- Saves scan results to a file.
 
 ### 📷 Output:
 

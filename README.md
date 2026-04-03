@@ -162,13 +162,30 @@ These are used in initial reconnaissance (beginner level)
 
 ### 📌 Description:
 
-Performs OS detection, version detection, and script scanning.
+- Skip ping
+- Assume host is up.
+- This options is used if the firewall blocks icmp packets.
 
 ### 📷 Output:
 
-![Aggressive Scan](screenshots/aggressive-scan.png)
+![Skip Ping Scan](screenshots/skip-ping-scan.png)
 
 ---
+
+### 🔹 Command 12 : Save Outout
+
+![Nmap](https://img.shields.io/badge/nmap%20--oN%20192.168.198.129%20-red)
+
+### 📌 Description:
+
+- Save scan output in txt format.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/skip-ping-scan.png)
+
+---
+
 
 ### 🔹 Command 2 : Stealth Scan (SYN Scan)
 

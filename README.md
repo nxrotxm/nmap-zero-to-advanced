@@ -256,6 +256,63 @@ Used in real penetration testing & deeper analysis.
 
 ---
 
+### 🔹 Command 5 : ACK Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--sA%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs scan usinsg tcp ACK flag.
+
+### 📷 Output:
+
+![TCP Connect Scan](screenshots/ack-scan.png)
+
+---
+
+### 🔹 Command 6 : FIN Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--sF%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs scan usinsg tcp FIN flag.
+
+### 📷 Output:
+
+![UDP Scan](screenshots/fin-scan.png)
+
+---
+
+### 🔹 Command 7 : XMAS Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--sX%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs XMAS scan.
+
+### 📷 Output:
+
+![UDP Scan](screenshots/xmas-scan.png)
+
+---
+
+### 🔹 Command 7 : NULL Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--sN%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs NULL scan.
+
+### 📷 Output:
+
+![UDP Scan](screenshots/null-scan.png)
+
+---
+
+
 ### 🔹 Fast Scan:
 
 nmap -F <target>

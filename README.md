@@ -242,6 +242,19 @@ Used in real penetration testing & deeper analysis.
 
 ---
 
+### 🔹 Command 4 : UDP Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--sU%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs scan for UDP ports.
+
+### 📷 Output:
+
+![UDP Scan](screenshots/udp-scan.png)
+
+---
 
 ### 🔹 Fast Scan:
 

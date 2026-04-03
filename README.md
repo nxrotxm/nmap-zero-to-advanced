@@ -113,6 +113,62 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
+### 🔹 Command 8 : Fast Port Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--F%20%20192.168.198.129-red)
+
+- Scan and display top 100 open ports.
+- Faster but less detailed.
+  
+### 📷 Output:
+
+![Fast port Scan](screenshots/fast-port-scan.png)
+
+---
+
+### 🔹 Command 9 : OS Detection scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--O%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Attempts to identify the operating system.
+- Perform port scanning with operating system detection.
+- Attackers perform os detections scan so that they can find specific exploit related to that os and service version.
+
+### 📷 Output:
+
+![Os Scan](screenshots/os-scan.png)
+
+---
+
+### 🔹 Command 10 : Aggressive Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--A%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs OS detection, version detection,traceroute, and script scanning.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/aggressive-scan.png)
+
+---
+
+### 🔹 Command 11 : Skip Ping Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20192.168.198.129%20--Pn-red)
+
+### 📌 Description:
+
+Performs OS detection, version detection, and script scanning.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/aggressive-scan.png)
+
+---
 
 ### 🔹 Command 2 : Stealth Scan (SYN Scan)
 
@@ -148,35 +204,7 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-### 🔹 Command 4 : OS Detection scan
 
-![Nmap](https://img.shields.io/badge/nmap%20--O%20192.168.198.129-red)
-
-### 📌 Description:
-
-- Attempts to identify the operating system.
-- Perform port scanning with operating system detection.
-- Attackers perform os detections scan so that they can find specific exploit related to that os and service version.
-
-### 📷 Output:
-
-![Version Scan](screenshots/os-scan.png)
-
----
-
-### 🔹 Command 5 : Aggressive Scan
-
-![Nmap](https://img.shields.io/badge/nmap%20--A%20192.168.198.129-red)
-
-### 📌 Description:
-
-Performs OS detection, version detection, and script scanning.
-
-### 📷 Output:
-
-![Aggressive Scan](screenshots/aggressive-scan.png)
-
----
 
 ### 🔹 Fast Scan:
 

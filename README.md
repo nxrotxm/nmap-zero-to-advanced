@@ -184,11 +184,15 @@ These are used in initial reconnaissance (beginner level)
 
 ![Save Output](screenshots/save-output.png)
 
+
 ---
 
 
 ## 🧠 Chapter 2: ADVANCED NMAP COMMANDS
 
+Used in real penetration testing & deeper analysis.
+
+---
 
 ### 🔹 Command 1 : Stealth Scan (SYN Scan)
 
@@ -198,7 +202,6 @@ These are used in initial reconnaissance (beginner level)
 
 - Performs half-open scan and doesn't complete TCP hanshake
 - Performs a stealth scan that is less detectable.
-- More stealthy than basic scan.
 - Output will be the same as basic scan, displays all open ports with running service with that port.
 
 ### 📷 Output:
@@ -207,7 +210,7 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-### 🔹 Command 3 : Service Version Detection scan
+### 🔹 Command 2 : Service Version Detection scan
 
 ![Nmap](https://img.shields.io/badge/nmap%20--sV%20192.168.198.129-red)
 
@@ -224,6 +227,20 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
+### 🔹 Command 3 : TCP Connect Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--sT%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs scan usinsg tcp handshake.
+- Scans 1000 common open port.
+
+### 📷 Output:
+
+![TCP Connect Scan](screenshots/tcp-connect-scan.png)
+
+---
 
 
 ### 🔹 Fast Scan:

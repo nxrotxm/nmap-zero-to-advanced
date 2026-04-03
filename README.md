@@ -15,7 +15,7 @@ These are used in initial reconnaissance (beginner level)
 
 ---
 
-## 🧠 Chapter 1: Basic Commands for Scanning
+## 🧠 Chapter 1: BASIC NMAP COMMANDS
 
 ### 🔹 Command 1 : Host Discovery scan
 
@@ -182,12 +182,15 @@ These are used in initial reconnaissance (beginner level)
 
 ### 📷 Output:
 
-![Aggressive Scan](screenshots/skip-ping-scan.png)
+![Save Output](screenshots/save-output.png)
 
 ---
 
 
-### 🔹 Command 2 : Stealth Scan (SYN Scan)
+## 🧠 Chapter 2: ADVANCED NMAP COMMANDS
+
+
+### 🔹 Command 1 : Stealth Scan (SYN Scan)
 
 ![Nmap](https://img.shields.io/badge/nmap%20--sS%20192.168.198.129-red)
 

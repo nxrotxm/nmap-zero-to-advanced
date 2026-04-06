@@ -314,7 +314,7 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 
 ---
 
-## 🔍 Basic Scan
+# 🔍 Basic Scan
 
 ### 🔹 Command 1 : Host Discovery scan
 
@@ -427,7 +427,7 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 
 ---
 
-### 🔹 Command 11 : Skip Ping Scan
+### 🔹 Command 9 : Skip Ping Scan
 
 ![Nmap](https://img.shields.io/badge/nmap%20192.168.198.129%20--Pn-red)
 
@@ -443,7 +443,7 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 
 ---
 
-### 🔹 Command 12 : Save Outout
+### 🔹 Command 10 : Save Outout
 
 ![Nmap](https://img.shields.io/badge/nmap%20--oN%20192.168.198.129%20-red)
 
@@ -460,7 +460,7 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 ---
 
 
-# 🧠 ADVANCE SCAN
+# 🔍 ADVANCE SCAN
 
 ### 🔍 Advanced scanning helps you:
 

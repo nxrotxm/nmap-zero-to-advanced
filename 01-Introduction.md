@@ -565,4 +565,36 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 
 ---
 
+### 🔹 Command 11 : Default Script Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--sC%20192.168.198.129-red)
+
+![Nmap](https://img.shields.io/badge/nmap%20----script%20default%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs default script scanning on all open ports.
+
+### 📷 Output:
+
+![Default Script Scan](screenshots/default-script-scan.png)
+
+---
+
+### 🔹 Command 10 : Aggressive Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20----script%20vuln%20192.168.198.129-red)
+
+### 📌 Description:
+
+- Performs a vulnerability scan on all open ports.
+- Not all screenshots are included below because it would be too long.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/vuln-script-scan.png)
+
+---
+
+
 

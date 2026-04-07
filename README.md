@@ -1,87 +1,320 @@
-# 🔍 Nmap Complete Guide (Beginner to Advanced)
-
-## 📘 Introduction
-
-Nmap (Network Mapper) is a powerful tool used for network discovery and security auditing.
-
-## 🔍 Understanding Network Scanning
-
-Before attacking a system, a hacker must first **understand it**.
-
-Network scanning is the process of:
-
-- 🖥️ Discovering live systems  
-- 🔓 Identifying open ports  
-- 🧭 Mapping running services
+# 📘 Chapter 1: Introduction to Network Scanning & Ethical Hacking
 
 ---
 
-### 🧠 Concept
+## 🧠 What is Ethical Hacking?
 
-Think of it like:
-**"Walking around a house and checking which doors and windows are open."**
+Ethical hacking is the practice of testing systems, networks, and applications to find **security weaknesses** — legally and with proper authorization.
 
----
+### ✅ Ethical hackers:
 
-### 🎯 Why It Matters
-
-Network scanning helps you:
-
-- Find potential entry points  
-- Understand system exposure  
-- Plan further actions effectively  
+- ⚖️ Follow the law  
+- 🔑 Work with permission  
+- 🛡️ Help organizations improve security  
 
 ---
 
-### ⚡ Summary
+## 🎯 Why Network Scanning Matters
 
-| Step | Description |
-|------|------------|
-| 🔎 Discovery | Find active devices |
-| 🚪 Ports | Check open doors (ports) |
-| 🛠️ Services | Identify what's running |
+Before exploiting a system, you must first **understand it**.
 
----
+Network scanning is the **first step in hacking**, used to:
 
-## 🧠 How Nmap Works (Behind the Scenes)
-
-When you run a scan like:
-- nmap target
-
-Nmap performs the following steps during a scan:
-
-- 🌐 Resolves domain → IP address  
-- 📡 Sends packets to target ports  
-- 📊 Analyzes responses  
-- 🧠 Classifies port states  
+- 🖥️ Discover live systems  
+- 🔓 Identify open ports  
+- 🧭 Detect running services  
+- 🎯 Map the attack surface  
 
 ---
 
-### 🚪 Port Classification
+## 🏠 Real-World Analogy
+
+Think of a target network like a house:
+
+| Concept        | Real World Example |
+|---------------|------------------|
+| 🌐 IP Address | House address |
+| 🚪 Ports      | Doors & windows |
+| 🛠️ Services   | What’s inside the rooms |
+
+👉 **Scanning = Checking which doors/windows are open**
+
+---
+
+## 🔗 Phases of Ethical Hacking
+
+Every penetration test follows a structured process:
+
+---
+
+### 1️⃣ Reconnaissance (Information Gathering)
+- Collect target information  
+- Domain, IP, employees  
+
+---
+
+### 2️⃣ Scanning
+- Find live hosts  
+- Identify open ports  
+- Detect services  
+
+---
+
+### 3️⃣ Enumeration
+- Extract deeper information  
+- Users, versions, shares  
+
+---
+
+### 4️⃣ Exploitation
+- Use vulnerabilities to gain access  
+
+---
+
+### 5️⃣ Post-Exploitation
+- Maintain access  
+- Extract sensitive data  
+
+---
+
+### 6️⃣ Reporting
+- Document findings  
+- Provide remediation steps  
+
+---
+
+## ⚡ Summary
+
+- 🧠 Ethical hacking = Legal security testing  
+- 🔍 Scanning = First technical step  
+- 🎯 Goal = Understand target before attack  
+
+---
+
+## ⚙️ What is Nmap?
+
+**Nmap (Network Mapper)** is a powerful open-source tool used for:
+
+- 🌐 Network discovery  
+- 🔓 Port scanning  
+- 🧭 Service detection  
+- 🛡️ Vulnerability scanning  
+
+---
+
+## 🔥 Why Hackers Love Nmap
+
+- ⚡ Fast and flexible  
+- 🕵️ Supports stealth scanning  
+- 🧩 Powerful scripting engine (NSE)  
+- 💻 Works on almost all platforms  
+
+---
+
+## ⚠️ Legal Warning (IMPORTANT)
+
+🚨 **Never scan systems without permission.**
+
+Unauthorized scanning can:
+
+- ⛔ Get you banned  
+- ⚖️ Lead to legal action  
+- 💣 Be considered a cyber attack  
+
+---
+
+## 🧪 Real-World Scenario
+
+Imagine:
+
+You are hired to test a company’s network.
+
+Before doing anything:
+
+- 🔍 You run scans  
+- 🧭 Identify open services  
+- 🎯 Look for weaknesses  
+
+➡️ **Without scanning, you are blind**
+
+---
+
+# 📘 Chapter 2: Networking Basics for Hackers
+
+---
+
+## 🌐 Why Networking Knowledge is Critical
+
+You cannot be a good hacker without understanding how networks work.
+
+🧠 Nmap is not magic — it relies on:
+- 📡 Protocols  
+- 📦 Packets  
+- 📜 Communication rules  
+
+---
+
+## 🧠 What is a Network?
+
+A **network** is a group of devices connected to share data.
+
+### Examples:
+- 📶 Wi-Fi network  
+- 🏢 Office network  
+- 🌍 Internet  
+
+---
+
+## 🆔 IP Address (Identity of a Device)
+
+An IP address is like a **unique ID** for a device.
+
+---
+
+## 🔎 Types of IP Addresses
+
+### 🟢 Private IP
+- Used inside local networks  
+- Examples:
+- 192.168.x.x
+- 10.x.x.x
+
+
+### 🔴 Public IP
+- Visible on the internet  
+- Assigned by ISP  
+
+---
+
+## 🚪 What is a Port?
+
+A **port** is a communication endpoint.
+
+👉 One device can run multiple services using different ports.
+
+---
+
+## 📊 Common Ports
+
+| Port | Service | Description |
+|------|--------|------------|
+| 21   | FTP    | File transfer |
+| 22   | SSH    | Remote login |
+| 23   | Telnet | Insecure remote access |
+| 25   | SMTP   | Email sending |
+| 53   | DNS    | Domain resolution |
+| 80   | HTTP   | Web traffic |
+| 443  | HTTPS  | Secure web |
+
+---
+
+## 🚦 Port States (VERY IMPORTANT)
 
 - 🟢 **Open** → Service is running  
 - 🔴 **Closed** → No service  
-- 🟡 **Filtered** → Firewall blocking access  
-
-## ⚙️ Lab Setup
-
-* Kali Linux (Attacker)
-* Metasploitable2 (Target)
+- 🟡 **Filtered** → Firewall blocking  
 
 ---
 
-# 🧠 Chapter 1: BASIC NMAP COMMANDS
+## 📡 Protocols: TCP vs UDP
 
-### 🔍 Introduction to Basic Scanning
+### 🔵 TCP (Transmission Control Protocol)
+- Connection-oriented  
+- Reliable  
 
-🔹 Basic scanning in Nmap is used to:
-
-- Discover live hosts
-- Identify open ports
-- Get an initial understanding of a network
-- These scans are fast, simple, and essential before moving to advanced techniques.
+**Used in:**
+- HTTP  
+- SSH  
+- FTP  
 
 ---
+
+### 🔴 UDP (User Datagram Protocol)
+- Connectionless  
+- Faster but less reliable  
+
+**Used in:**
+- DNS  
+- Streaming  
+- VoIP  
+
+---
+
+## 🤝 TCP 3-Way Handshake
+
+This is critical for understanding Nmap scans:
+
+## SYN → SYN-ACK → ACK
+
+
+### Step-by-step:
+
+1. Client sends **SYN**  
+2. Server replies **SYN-ACK**  
+3. Client sends **ACK**  
+
+➡️ **Connection established**
+
+---
+
+## 🧠 Why This Matters for Nmap
+
+Nmap manipulates this handshake:
+
+- ⚡ **SYN Scan** → Does NOT complete handshake (stealthy)  
+- 🔍 **TCP Scan** → Completes handshake  
+
+---
+
+## 🔥 Firewall Basics
+
+A **firewall**:
+
+- 🛡️ Monitors traffic  
+- 🚫 Blocks suspicious packets  
+
+### Example:
+- Blocks unknown ports  
+- Filters scanning attempts  
+
+---
+
+## 🧪 Real-World Scenario
+
+You scan a target and see:
+- 80/tcp | open | http
+- 22/tcp | filtered | ssh
+
+
+### 👉 Meaning:
+
+- 🌐 Website is accessible  
+- 🔒 SSH is blocked by firewall  
+
+---
+
+## 🔥 You Now Have Strong Foundation
+
+After these chapters:
+
+- 🧠 You understand how networks work  
+- 🔍 You understand how Nmap thinks  
+
+---
+
+# 📘 Chapter 3: Nmap Practical Scanning (Real Commands)
+
+---
+
+## ⚡ Introduction
+
+Now that you understand networking basics, it's time to **use Nmap in real scenarios**.
+
+🎯 Goal: Learn how to scan targets like a real penetration tester.
+
+---
+
+# 🔍 Basic Scan
 
 ### 🔹 Command 1 : Host Discovery scan
 
@@ -194,7 +427,7 @@ Nmap performs the following steps during a scan:
 
 ---
 
-### 🔹 Command 11 : Skip Ping Scan
+### 🔹 Command 9 : Skip Ping Scan
 
 ![Nmap](https://img.shields.io/badge/nmap%20192.168.198.129%20--Pn-red)
 
@@ -210,7 +443,7 @@ Nmap performs the following steps during a scan:
 
 ---
 
-### 🔹 Command 12 : Save Outout
+### 🔹 Command 10 : Save Outout
 
 ![Nmap](https://img.shields.io/badge/nmap%20--oN%20192.168.198.129%20-red)
 
@@ -227,7 +460,7 @@ Nmap performs the following steps during a scan:
 ---
 
 
-# 🧠 Chapter 2: ADVANCED NMAP COMMANDS
+# 🔍 ADVANCE SCAN
 
 ### 🔍 Advanced scanning helps you:
 
@@ -332,101 +565,143 @@ Nmap performs the following steps during a scan:
 
 ---
 
-### 🔹 Command 5 : ACK Scan
+### 🔹 Command 11 : Default Script Scan
 
-![Nmap](https://img.shields.io/badge/nmap%20--sA%20192.168.198.129-red)
+![Nmap](https://img.shields.io/badge/nmap%20--sC%20192.168.198.129-red)
+
+![Nmap](https://img.shields.io/badge/nmap%20----script%20default%20192.168.198.129-red)
 
 ### 📌 Description:
 
-- Performs scan usinsg tcp ACK flag.
+- Performs default script scanning on all open ports.
 
 ### 📷 Output:
 
-![TCP Connect Scan](screenshots/ack-scan.png)
+![Default Script Scan](screenshots/default-script-scan.png)
 
 ---
 
-### 🔹 Command 6 : FIN Scan
+### 🔹 Command 12 : Vulnerability Script Scan
 
-![Nmap](https://img.shields.io/badge/nmap%20--sF%20192.168.198.129-red)
+![Nmap](https://img.shields.io/badge/nmap%20----script%20vuln%20192.168.198.129-red)
 
 ### 📌 Description:
 
-- Performs scan usinsg tcp FIN flag.
+- Performs a vulnerability scan on all open ports.
+- Not all screenshots are included below because it would be too long.
 
 ### 📷 Output:
 
-![UDP Scan](screenshots/fin-scan.png)
+![Aggressive Scan](screenshots/vuln-script-scan.png)
 
 ---
 
-### 🔹 Command 7 : XMAS Scan
+## 🔥 Types of Scripts
 
-![Nmap](https://img.shields.io/badge/nmap%20--sX%20192.168.198.129-red)
+- vuln → vulnerabilities
+- auth → authentication checks
+- brute → brute-force attempts
+
+---
+
+### 🔹 Command 13 : Packet Fragmentation Scan
+
+![Nmap](https://img.shields.io/badge/nmap%20--f%20192.168.198.129-red)
 
 ### 📌 Description:
 
-- Performs XMAS scan.
+- Performs port scanning by sending fragmented packets.
+- It Bypasses simple firewalls.
 
 ### 📷 Output:
 
-![UDP Scan](screenshots/xmas-scan.png)
+![Aggressive Scan](screenshots/packet-fragment-scan.png)
 
 ---
 
-### 🔹 Command 7 : NULL Scan
+### 🔹 Command 14 : Decoy Scan
 
-![Nmap](https://img.shields.io/badge/nmap%20--sN%20192.168.198.129-red)
+![Nmap](https://img.shields.io/badge/nmap%20--D%20RND:10%20192.168.198.129-red)
 
 ### 📌 Description:
 
-- Performs NULL scan.
+- Performs port scanning by sending fake IPs.
+- It hides your real IP.
 
 ### 📷 Output:
 
-![UDP Scan](screenshots/null-scan.png)
+![Aggressive Scan](screenshots/decoy-scan.png)
 
 ---
 
+### 🔹 Command 15 : Source Port Manipulation Scan
 
-### 🔹 Fast Scan:
-
-nmap -F <target>
-
----
-
-## 🧠 Chapter 7: Nmap Scripts (NSE)
-
-### 🔹 Command:
-
-nmap --script vuln <target>
+![Nmap](https://img.shields.io/badge/nmap%20----source--port%2053%20192.168.198.129-red)
 
 ### 📌 Description:
 
-Runs vulnerability detection scripts.
+- Performs port scanning by sending packets from port 53.
+- Firewalls trust DNS traffic, so it will not block the packets.
+
+### 📷 Output:
+
+![Aggressive Scan](screenshots/source-port-manipulation-scan.png)
 
 ---
 
-## 🧠 Chapter 8: Saving Output
+# 🔥 There are also commands available for speed and performance tuning.
 
-### 🔹 Command:
+- **nmap -T0 192.168.198.129**
+   - Sends packets very slowly.
+   - Avoid detection systems (IDS/IPS).
+   - Extremely stealthy.
 
-nmap -oN output.txt <target>
+- **nmap -T1 192.168.198.129**
+   - Slightly faster than T0, still very slow.
+   - Stealth scanning with less time.
+   - Still avoids many detection systems.
+ 
+- **nmap -T2 192.168.198.129**
+   - Slows scan to reduce network load.
+   - When you don’t want to overload target.
+   - Good for stable and careful scanning.
+ 
+- **nmap -T3 192.168.198.129**
+   - Default timing.
+   - Balanced speed and accuracy.
+   - Safe choice if unsure.
 
-### 📌 Description:
+- **nmap -T4 192.168.198.129**
+   - Faster scanning.
+   - Faster results.
+   - Works well in lab/CTF.
 
-Saves scan results to a file.
+- **nmap -T5 192.168.198.129**
+   - Extremely fast.
+   - Very fast scans in controlled environments.
+   - Used only when speed matters more than accuracy.
+
+- **nmap--min-rate 1000 192.168.198.129**
+   - Send packets no slower than 1000 per second.
+
+- **nmap--max-retries 2 192.168.198.129**
+   - Caps number of port scan probe retransmissions.
 
 ---
 
-## 🧠 Key Learnings
-
-* Network reconnaissance techniques
-* Different types of scanning methods
-* Importance of service and OS detection
+### ⏱️ Timing Strategy
+- T0–T2 → Stealth scanning
+- T3 → Default
+- T4–T5 → Fast scanning
 
 ---
 
-## ⚠️ Disclaimer
+# 🔥 BEST COMMAND (You Should Use)
 
-This project is for educational purposes only.
+## **nmap -sS -sV -T4 192.168.198.129**
+
+---
+
+
+
+

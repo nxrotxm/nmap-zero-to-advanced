@@ -1,11 +1,35 @@
 # 📘 Chapter 4 : Advanced Scanning & Stealth Techniques
 
-### 🔍 Advanced scanning helps you:
+---
 
-- Stay stealthy
-- Detect services and OS
-- Discover vulnerabilities
-- Bypass firewalls.
+## 🧠 Objective of This Chapter
+
+By the end of this chapter, you will be able to:
+
+- 🕵️ Perform stealthy scans  
+- 🔍 Detect services and operating systems  
+- ⚙️ Use advanced Nmap features  
+- 🛡️ Understand how to avoid detection  
+
+---
+
+## ⚡ Why Advanced Scanning Matters
+
+Basic scans are:
+
+- 📢 Noisy  
+- 🧾 Easily logged  
+- 🚫 Detectable by firewalls  
+
+---
+
+## 🚀 Advantages of Advanced Scanning
+
+Advanced scanning techniques help you:
+
+- 🕶️ Stay hidden  
+- 🧠 Gather deeper information  
+- 🛡️ Bypass security defenses  
 
 ---
 
@@ -238,4 +262,7 @@
 
 ## **nmap -sS -sV -T4 192.168.198.129**
 
+---
+<p align="center">
+  ⚡ “Scan smarter, not louder.” ⚡
 ---

@@ -100,7 +100,7 @@ FTP (File Transfer Protocol) is commonly found on port **21** and is often **mis
 
 ### 📷 Output:
 
-![Version Scan](screenshots/version-scan.png)
+![Version Scan](screenshots/ftp-enum.png)
 
 - As shown above, the FTP service is misconfigured and vulnerable as it allows anonymous login.
 - An attacker can gain access to the FTP service without providing valid authentication credentials.

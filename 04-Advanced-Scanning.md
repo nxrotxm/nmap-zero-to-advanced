@@ -1,4 +1,4 @@
-# 📘 Chapter 4 : ADVANCE SCAN
+# 📘 Chapter 4 : Advanced Scanning & Stealth Techniques
 
 ### 🔍 Advanced scanning helps you:
 

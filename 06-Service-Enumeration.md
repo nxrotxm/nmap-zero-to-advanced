@@ -27,6 +27,22 @@
 
 ---
 
+# ⚙️ Lab Setup
+
+## 🖥️ Attacker Machine
+
+- Kali Linux
+## 🎯 Target Machine
+- Metasploitable2 IP (example): 192.168.198.129
+
+---
+
+# let's start enumaration and exploits
+
+
+
+---
+
 <p align="center">
   ⚡ “Scanning shows the door. Enumeration finds the key.” ⚡
 </p>

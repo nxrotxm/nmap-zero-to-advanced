@@ -24,6 +24,18 @@ Now that you understand networking basics, it's time to **use Nmap in real scena
 
 ---
 
+# ⚙️ Lab Setup
+
+## 🖥️ Attacker Machine
+
+- Kali Linux
+
+## 🎯 Target Machine
+
+- Metasploitable2 IP (example) : 192.168.198.129
+
+---
+
 # 🔍 Basic Scan
 
 ### 🔹 Command 1 : Host Discovery scan

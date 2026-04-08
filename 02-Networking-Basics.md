@@ -1,4 +1,4 @@
-# 📘 Chapter 2: Networking Basics for Hackers
+# 📘 Chapter 2 : Networking Basics for Hackers
 
 ---
 
